@@ -43,3 +43,17 @@ def remove_pet_by_name(pet_shop, pet_name):
     for pet in pet_shop["pets"]:
         if pet["name"] == pet_name:
             pet_shop["pets"].remove(pet)
+
+# Test 13 add dictionary to list of dictionaries
+# def add_pet_to_stock(pet_store, new_stock):
+#     pet_store["pets"] += new_stock
+#     pet_store["pets"].append({
+#             "name": "Bors the Younger",
+#             "pet_type": "cat",
+#             "breed": "Cornish Rex",
+#             "price": 100
+#         })
+
+# Test 14 get customer cash
+def get_customer_cash(customer_cash):
+    return customer_cash ["cash"]
