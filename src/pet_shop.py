@@ -32,9 +32,3 @@ def get_pets_by_breed(pet_shop, breed):
             pets.append(pets)
     return pets 
 
-# def get_pets_by_breed(pet_shop, breed):
-#     pets = []
-#     for pet in pet_shop["pets"]:
-#         if pet["breed"] == breed:
-#             pets.append(pets)
-#     return pets
