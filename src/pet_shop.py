@@ -57,14 +57,12 @@ def get_customer_cash(customer_name):
 #     customer["cash"] - customer_cash[100]
 #     return ["cash"]
 
-# Test 16
-# def get_customer_pet_count(customer_pets):
-#     pet_count = []
-#     for pets in customer_pets["pets"]:
-#         pet_count.append(pets)
-#     return pet_count     
+# Test 16 return total customer pets
+def get_customer_pet_count(customer):
+    return len(customer["pets"])
+  
 
-# Test 17
+
     
             
 
