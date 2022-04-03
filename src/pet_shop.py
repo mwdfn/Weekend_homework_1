@@ -45,15 +45,29 @@ def remove_pet_by_name(pet_shop, pet_name):
             pet_shop["pets"].remove(pet)
 
 # Test 13 add dictionary to list of dictionaries
-# def add_pet_to_stock(pet_store, new_stock):
-#     pet_store["pets"] += new_stock
-#     pet_store["pets"].append({
-#             "name": "Bors the Younger",
-#             "pet_type": "cat",
-#             "breed": "Cornish Rex",
-#             "price": 100
-#         })
+def add_pet_to_stock(pet_shop, new_pet):
+  pet_shop["pets"].append(new_pet)
 
 # Test 14 get customer cash
-def get_customer_cash(customer_cash):
-    return customer_cash ["cash"]
+def get_customer_cash(customer_name):
+    return customer_name ["cash"]
+
+# Test 15 remove customer cash
+# def remove_customer_cash(customer, customer_cash):
+#     customer["cash"] - customer_cash[100]
+#     return ["cash"]
+
+# Test 16
+# def get_customer_pet_count(customer_pets):
+#     pet_count = []
+#     for pets in customer_pets["pets"]:
+#         pet_count.append(pets)
+#     return pet_count     
+
+# Test 17
+    
+            
+
+
+
+        
