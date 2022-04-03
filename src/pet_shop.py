@@ -32,8 +32,14 @@ def get_pets_by_breed(pet_shop, breed):
             pets.append(pets)
     return pets 
 
-
+# Test 10 & 11 gets pets by name
 def find_pet_by_name(pet_shop, pet_name):
     for pet in pet_shop["pets"]:
         if pet["name"] == pet_name:
             return pet 
+
+# Test 12 removes a pet by name
+def remove_pet_by_name(pet_shop, pet_name):
+    for pet in pet_shop["pets"]:
+        if pet["name"] == pet_name:
+            pet_shop["pets"].remove(pet)
