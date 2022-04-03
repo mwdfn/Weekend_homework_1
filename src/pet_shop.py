@@ -67,11 +67,18 @@ def add_pet_to_customer(customer, new_pet):
 
 # --OPTIONAL--
 
+# Test 18, 19 & 20 can customer afford pet
 def customer_can_afford_pet(customer, new_pet):
     if customer["cash"] >= new_pet["price"]:
         return True
+    elif customer["cash"] == new_pet["price"]:
+        return True
     else:
         return False
+
+
+
+
 
 
     
