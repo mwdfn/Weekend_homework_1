@@ -53,9 +53,9 @@ def get_customer_cash(customer_name):
     return customer_name ["cash"]
 
 # Test 15 remove customer cash
-# def remove_customer_cash(customer, customer_cash):
-#     customer["cash"] - customer_cash[100]
-#     return ["cash"]
+def remove_customer_cash(customer, customer_spend):
+  customer["cash"] -= customer_spend
+
 
 # Test 16 return total customer pets from list
 def get_customer_pet_count(customer):
