@@ -57,10 +57,13 @@ def get_customer_cash(customer_name):
 #     customer["cash"] - customer_cash[100]
 #     return ["cash"]
 
-# Test 16 return total customer pets
+# Test 16 return total customer pets from list
 def get_customer_pet_count(customer):
     return len(customer["pets"])
-  
+
+# Test 17 add value as a list to "pets" key customer dictionary
+def add_pet_to_customer(customer, new_pet):
+    customer["pets"].append(new_pet)
 
 
     
